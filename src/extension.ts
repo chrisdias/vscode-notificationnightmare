@@ -10,7 +10,7 @@ export async function activate(context: vscode.ExtensionContext) {
 
     await vscode.window.showInformationMessage('Hello There!', 'Hi');
     await vscode.window.showInformationMessage('This extension has been updated, read the README?', 'Yes', 'No', 'Later');
-    await vscode.window.showInformationMessage('C\'mon, read it, it is very important', 'OK', 'OK');
+    // await vscode.window.showInformationMessage('C\'mon, read it, it is very important', 'OK', 'OK');
     vscode.window.showInformationMessage('VS Code has been updated, do you want to restart to install?', 'Heck Yeah!');
     vscode.window.showInformationMessage('We recommend you install the C# extension!', 'Show Recommendations', 'Never Show Again');
     vscode.window.showInformationMessage('We recommend you install the PHP extension!', 'Show Recommendations', 'Never Show Again');
