@@ -10,7 +10,10 @@
     "categories": [
         "Other"
     ],
-    "license": "MIT",
+    "repository": {
+        "url": "https://github.com/chrisdias/vscode-notificationnightmare"
+    },
+    "license": "LICENSE.md",
     "activationEvents": [
         "*"
     ],
